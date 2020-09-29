@@ -1,5 +1,6 @@
 function updateInnerHTML(selector, newValue) {
     document.querySelector(selector).innerHTML = newValue;
+    console.log(newValue)
 }
 
 updateInnerHTML('h1', 'Out of the night that covers me');
